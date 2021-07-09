@@ -2,16 +2,15 @@ data:extend{
   {
     type = "sprite",
     name = "ee_logo",
-    filename = "__EditorExtensions__/graphics/gui/crafting-group.png",
-    size = 128,
-    mipmap_count = 2,
+    filename = "__base__/graphics/technology/steel-axe.png",
+    size = 256,
+    mipmap_count = 4,
     flags = {"gui-icon"}
   },
   {
     type = "sprite",
     name = "ee_import_inventory_filters",
-    filename = "__EditorExtensions__/graphics/gui/inventory-filters.png",
-    y = 0,
+    filename = "__core__/graphics/icons/mip/import.png",
     size = 32,
     mipmap_count = 2,
     flags = {"gui-icon"}
@@ -19,8 +18,7 @@ data:extend{
   {
     type = "sprite",
     name = "ee_export_inventory_filters",
-    filename = "__EditorExtensions__/graphics/gui/inventory-filters.png",
-    y = 32,
+    filename = "__core__/graphics/icons/mip/export.png",
     size = 32,
     mipmap_count = 2,
     flags = {"gui-icon"}
@@ -28,16 +26,17 @@ data:extend{
   {
     type = "sprite",
     name = "ee_open_default_gui_black",
-    filename = "__EditorExtensions__/graphics/gui/frame-action-icons.png",
+    filename = "__core__/graphics/icons/mip/expand-dark.png",
     size = 32,
+    mipmap_count = 2,
     flags = {"gui-icon"}
   },
   {
     type = "sprite",
     name = "ee_open_default_gui_white",
-    filename = "__EditorExtensions__/graphics/gui/frame-action-icons.png",
-    x = 32,
+    filename = "__core__/graphics/icons/mip/expand.png",
     size = 32,
+    mipmap_count = 2,
     flags = {"gui-icon"}
   }
 }

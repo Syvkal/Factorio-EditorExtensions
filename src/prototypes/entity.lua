@@ -30,14 +30,14 @@ do
   local infinity_chest_picture = {
     layers = {
       {
-        filename = "__EditorExtensions__/graphics/entity/infinity-chest/infinity-chest.png",
+        filename = "__base__/graphics/entity/infinity-chest/infinity-chest.png",
         priority = "extra-high",
         width = 34,
         height = 42,
         shift = util.by_pixel(0, -3),
         hr_version =
         {
-          filename = "__EditorExtensions__/graphics/entity/infinity-chest/hr-infinity-chest.png",
+          filename = "__base__/graphics/entity/infinity-chest/hr-infinity-chest.png",
           priority = "extra-high",
           width = 68,
           height = 84,
@@ -46,7 +46,7 @@ do
         }
       },
       {
-        filename = "__EditorExtensions__/graphics/entity/infinity-chest/infinity-chest-shadow.png",
+        filename = "__base__/graphics/entity/infinity-chest/infinity-chest-shadow.png",
         priority = "extra-high",
         width = 58,
         height = 24,
@@ -54,7 +54,7 @@ do
         draw_as_shadow = true,
         hr_version =
         {
-          filename = "__EditorExtensions__/graphics/entity/infinity-chest/hr-infinity-chest-shadow.png",
+          filename = "__base__/graphics/entity/infinity-chest/hr-infinity-chest-shadow.png",
           priority = "extra-high",
           width = 116,
           height = 48,
@@ -98,34 +98,34 @@ do
   local aggregate_chest_picture = {
     layers = {
       {
-        filename = "__EditorExtensions__/graphics/entity/aggregate-chest/aggregate-chest.png",
+        filename = "__base__/graphics/entity/compilatron-chest/compilatron-chest.png",
         priority = "extra-high",
         width = 34,
-        height = 42,
+        height = 40,
         shift = util.by_pixel(0, -3),
         hr_version =
         {
-          filename = "__EditorExtensions__/graphics/entity/aggregate-chest/hr-aggregate-chest.png",
+          filename = "__base__/graphics/entity/compilatron-chest/hr-compilatron-chest.png",
           priority = "extra-high",
           width = 68,
-          height = 84,
+          height = 79,
           shift = util.by_pixel(0, -3),
           scale = 0.5,
         }
       },
       {
-        filename = "__EditorExtensions__/graphics/entity/aggregate-chest/aggregate-chest-shadow.png",
+        filename = "__base__/graphics/entity/compilatron-chest/compilatron-chest-shadow.png",
         priority = "extra-high",
-        width = 58,
-        height = 24,
+        width = 57,
+        height = 21,
         shift = util.by_pixel(12, 6),
         draw_as_shadow = true,
         hr_version =
         {
-          filename = "__EditorExtensions__/graphics/entity/aggregate-chest/hr-aggregate-chest-shadow.png",
+          filename = "__base__/graphics/entity/compilatron-chest/hr-compilatron-chest-shadow.png",
           priority = "extra-high",
-          width = 116,
-          height = 48,
+          width = 114,
+          height = 41,
           shift = util.by_pixel(12, 6),
           draw_as_shadow = true,
           scale = 0.5,
@@ -361,13 +361,15 @@ do
   cargo_wagon.inventory_size = 100
   cargo_wagon.minable.result = "ee-infinity-cargo-wagon"
   cargo_wagon.minimap_representation = {
-    filename = "__EditorExtensions__/graphics/entity/infinity-cargo-wagon-minimap.png",
+    filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-minimap-representation.png",
+    tint = {r = 1, g = 0.25, b = 1, a = 1},
     flags = {"icon"},
     scale = 0.5,
     size = {20,40}
   }
   cargo_wagon.selected_minimap_representation = {
-    filename = "__EditorExtensions__/graphics/entity/infinity-cargo-wagon-minimap-selected.png",
+    filename = "__base__/graphics/entity/cargo-wagon/cargo-wagon-selected-minimap-representation.png",
+    tint = {r = 1, g = 0.25, b = 1, a = 1},
     flags = {"icon"},
     scale = 0.5,
     size = {20,40}
@@ -385,13 +387,15 @@ do
   fluid_wagon.icons = util.extract_icon_info(fluid_wagon)
   fluid_wagon.minable.result = "ee-infinity-fluid-wagon"
   fluid_wagon.minimap_representation = {
-    filename = "__EditorExtensions__/graphics/entity/infinity-fluid-wagon-minimap.png",
+    filename = "__base__/graphics/entity/fluid-wagon/fluid-wagon-minimap-representation.png",
+    tint = {r = 1, g = 0.25, b = 1, a = 1},
     flags = {"icon"},
     scale = 0.5,
     size = {20,40}
   }
   fluid_wagon.selected_minimap_representation = {
-    filename = "__EditorExtensions__/graphics/entity/infinity-fluid-wagon-minimap-selected.png",
+    filename = "__base__/graphics/entity/fluid-wagon/fluid-wagon-selected-minimap-representation.png",
+    tint = {r = 1, g = 0.25, b = 1, a = 1},
     flags = {"icon"},
     scale = 0.5,
     size = {20,40}
@@ -429,7 +433,7 @@ end
 local linked_chest = table.deepcopy(data.raw["linked-container"]["linked-chest"])
 linked_chest.name = "ee-linked-chest"
 linked_chest.icons = {
-  {icon = "__EditorExtensions__/graphics/item/linked-chest.png", icon_size = 64, icon_mipmaps = 4}
+  {icon = "__base__/graphics/icons/linked-chest-icon.png", icon_size = 64, icon_mipmaps = 4}
 }
 linked_chest.icon = nil
 linked_chest.icon_size = nil
@@ -440,34 +444,34 @@ linked_chest.gui_mode = "all"
 linked_chest.picture = {
   layers = {
     {
-      filename = "__EditorExtensions__/graphics/entity/linked-chest/linked-chest.png",
+      filename = "__base__/graphics/entity/linked-chest/linked-chest.png",
       priority = "extra-high",
       width = 34,
-      height = 42,
+      height = 38,
       shift = util.by_pixel(0, -3),
       hr_version =
       {
-        filename = "__EditorExtensions__/graphics/entity/linked-chest/hr-linked-chest.png",
+        filename = "__base__/graphics/entity/linked-chest/hr-linked-chest.png",
         priority = "extra-high",
-        width = 68,
-        height = 84,
+        width = 66,
+        height = 74,
         shift = util.by_pixel(0, -3),
         scale = 0.5,
       }
     },
     {
-      filename = "__EditorExtensions__/graphics/entity/linked-chest/linked-chest-shadow.png",
+      filename = "__base__/graphics/entity/linked-chest/linked-chest-shadow.png",
       priority = "extra-high",
-      width = 58,
+      width = 56,
       height = 24,
       shift = util.by_pixel(12, 6),
       draw_as_shadow = true,
       hr_version =
       {
-        filename = "__EditorExtensions__/graphics/entity/linked-chest/hr-linked-chest-shadow.png",
+        filename = "__base__/graphics/entity/linked-chest/hr-linked-chest-shadow.png",
         priority = "extra-high",
-        width = 116,
-        height = 48,
+        width = 112,
+        height = 46,
         shift = util.by_pixel(12, 6),
         draw_as_shadow = true,
         scale = 0.5,

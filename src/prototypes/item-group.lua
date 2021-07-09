@@ -26,9 +26,9 @@ data:extend{
     order = "zzzzz",
     icons = {
       {
-        icon = "__EditorExtensions__/graphics/gui/crafting-group.png",
-        icon_size = 128,
-        icon_mipmaps = 2,
+        icon = "__base__/graphics/technology/steel-axe.png",
+        icon_size = 256,
+        icon_mipmaps = 4,
         tint = constants.infinity_tint
       }
     }

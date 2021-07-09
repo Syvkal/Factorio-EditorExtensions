@@ -6,7 +6,7 @@ constants.aggregate_chest_data = {
 }
 
 constants.aggregate_chest_icon = {
-  icon = "__EditorExtensions__/graphics/item/aggregate-chest.png",
+  icon = "__base__/graphics/icons/compilatron-chest.png",
   icon_size = 64,
   icon_mipmaps = 4
 }
@@ -86,7 +86,7 @@ constants.infinity_chest_data = {
 }
 
 constants.infinity_chest_icon = {
-  icon = "__EditorExtensions__/graphics/item/infinity-chest.png",
+  icon = "__base__/graphics/icons/infinity-chest.png",
   icon_size = 64,
   icon_mipmaps = 4
 }
@@ -98,7 +98,7 @@ constants.linked_belt_tint = {r = 0.6, g = 1, b = 1, a = 1}
 constants.module_data = {
   {
     name = "ee-super-speed-module",
-    icon_ref = "module-3",
+    icon_ref = "speed-module-3",
     order = "ba",
     category = "speed",
     tier = 50,
@@ -107,7 +107,7 @@ constants.module_data = {
   },
   {
     name = "ee-super-effectivity-module",
-    icon_ref = "module-3",
+    icon_ref = "speed-module-3",
     order = "bb",
     category = "effectivity",
     tier = 50,
@@ -116,7 +116,7 @@ constants.module_data = {
   },
   {
     name = "ee-super-productivity-module",
-    icon_ref = "module-3",
+    icon_ref = "speed-module-3",
     order = "bc",
     category = "productivity",
     tier = 50,
@@ -125,7 +125,7 @@ constants.module_data = {
   },
   {
     name = "ee-super-clean-module",
-    icon_ref = "module-3",
+    icon_ref = "speed-module-3",
     order = "bd",
     category = "effectivity",
     tier = 50,
@@ -134,7 +134,7 @@ constants.module_data = {
   },
   {
     name = "ee-super-slow-module",
-    icon_ref = "module-1",
+    icon_ref = "speed-module",
     order = "ca",
     category = "speed",
     tier = 50,
@@ -143,7 +143,7 @@ constants.module_data = {
   },
   {
     name = "ee-super-ineffectivity-module",
-    icon_ref = "module-1",
+    icon_ref = "speed-module",
     order = "cb",
     category = "effectivity",
     tier = 50,
@@ -152,7 +152,7 @@ constants.module_data = {
   },
   {
     name = "ee-super-dirty-module",
-    icon_ref = "module-1",
+    icon_ref = "speed-module",
     order = "cc",
     category = "effectivity",
     tier = 50,

@@ -138,7 +138,7 @@ data:extend{linked_belt}
 local linked_chest = table.deepcopy(data.raw["item"]["linked-chest"])
 linked_chest.name = "ee-linked-chest"
 linked_chest.icons = {
-  {icon = "__EditorExtensions__/graphics/item/linked-chest.png", icon_size = 64, icon_mipmaps = 4}
+  {icon = "__base__/graphics/icons/linked-chest-icon.png", icon_size = 64, icon_mipmaps = 4}
 }
 linked_chest.subgroup = "ee-inventories"
 linked_chest.order = "c"

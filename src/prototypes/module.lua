@@ -18,7 +18,7 @@ for _, module_data in pairs(constants.module_data) do
   module.effect = module_data.effect
   module.icons = {
     {
-      icon = "__EditorExtensions__/graphics/item/"..module_data.icon_ref..".png",
+      icon = "__base__/graphics/icons/"..module_data.icon_ref..".png",
       icon_size = 64,
       icon_mipmaps = 4,
       tint = module_data.tint

@@ -1,3 +1,7 @@
+# No Custom Graphics
+The purpose of this fork is remove all custom graphics from the mod. You will only benefit from this fork if you have the `cache-sprite-atlas` setting enabled in Factorio. Removal of custom graphics allows for enabling/disabling of mods without the need to re-cache the sprite atlas.
+
+---
 ## Editor Extensions
 Extends the Factorio map editor with new tools and utilities, and makes tweaks to aid with sandbox play. Adds a suite of supercharged items and entities to assist with testing setups, and allows for easy and painless switching between the editor and normal play.
 
